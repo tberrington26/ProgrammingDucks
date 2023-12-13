@@ -1,0 +1,386 @@
+*{
+    font-size: 16px;
+}
+
+body {
+  background: linear-gradient(rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12)), url("https://th.bing.com/th/id/R.9f77db5357a78b71562e5cc333d8a80d?rik=bjXK4ObitD2WvA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fWO6yxAJ.jpg&ehk=MAyOnNrHy8lsJhx6wmHlKqq9AJVpx3f3tn53M1fFqJY%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+}
+
+em {
+  font-size: 18px;
+}
+
+p {
+  font-size:24px;
+}
+
+h1 {
+    font-size: 2em;
+    display:inline;
+  }
+  
+h2 {
+  font-size:1.5em;
+} 
+  
+  p, li {
+    font-size: 18px;
+  }
+  
+  
+  a {
+    text-decoration: none;
+  }
+
+ .lesson {
+    min-width:250px;
+ }
+
+#title {
+  display:flex;
+  justify-content: center;
+}
+
+ #title h1 {
+    color: rgb(244, 214, 239);
+    font-size: 54px;
+    text-align: center;
+    top: 50px;
+    position: relative;
+    background-color:rgba(248, 132, 121, 0.473);
+    text-shadow:2px 2px 10px rgb(150, 77, 138);
+    z-index: 5;
+ }
+
+ header {
+    position:fixed;
+    width:100%;
+    z-index: 5;
+ }
+
+header ul{
+  margin: 0px 0px;
+  padding: 0px 20px;
+  text-align: center;
+}
+
+ header li {
+    display: inline-flex;
+    max-width: 200px;
+    height: auto;
+    padding:0px 5px;
+    margin: 0px 20px;
+    font-size:24px;
+    font-weight:300;
+    justify-content: center;
+    border: 5px solid rgba(244, 214, 239,0.7);
+    
+ }
+ header li:hover{
+  color:white;
+
+ }
+
+ a:link {
+  color: rgb(163, 39, 142);
+  font-size: 24px;
+ }
+ a:visited {
+  color:rgb(117, 28, 102);
+ }
+ a:hover{
+  color:rgb(244, 214, 239);
+ }
+
+ .intro {
+  margin-top:100px;
+  text-align: center;
+  background-color:rgba(244, 214, 239,0.7);
+  width: 65%;
+  height:fit-content;
+  color:rgb(117, 28, 102);
+  display:inline-block;
+  
+
+ }
+ .intro p {
+  font-size:24px;
+ }
+ .intro h2 {
+  font-size:24px;
+
+ }
+ .intro em {
+  font-size:24px;
+ }
+ 
+ .bas {
+  font-size:30px;
+  margin:0px;
+  padding:0px;
+  color:rgb(117, 28, 102);
+  text-shadow:2px 2px 10px rgb(150, 77, 138);
+ }
+ .bas h3 {
+  font-size:1.5rem;
+  color:rgb(109, 67, 102);
+  background-color:rgba(244, 214, 239, .75);
+  width: fit-content;
+ }
+
+ .nav {
+  background-color: rgb(254, 240, 255);
+  justify-content: space-around;
+  margin:0px 0px;  
+ }
+
+ .lesson p {
+  padding: 25px 5px;
+  display:inline-block;
+ }
+
+.container {
+  display:flex;
+  max-height:250px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ .square {
+  width:100px;
+  height:100px;
+  background-color:rgb(226, 43, 171);
+ }
+
+.floral {
+  width:150px;
+  height:150px;
+  background-color: rgb(109, 67, 102);
+  border-radius: 150px;
+  justify-content: space-between;
+}
+
+.circle {
+  width:150px;
+  height:150px;
+  background-color: rgb(177, 130, 177);
+  border-radius: 150px;
+  justify-content: space-between;
+}
+
+ #coral:hover {
+  color:coral;
+ }
+
+ #royalblue:hover {
+  color:royalblue;
+ }
+
+ #periwinkle:hover {
+  color:powderblue;
+ }
+
+strong {
+  color:rgb(177, 130, 177);
+  text-shadow: 3px 3px 5px lightgoldenrodyellow;
+}
+
+ .container h4 {
+  font-size:24px;
+ }
+
+ #rgb {
+  background-color:rgb(244, 192, 235);
+  justify-content: center;
+ }
+
+ #rgba {
+  background-color:rgb(244, 192, 235, .5);
+  justify-content: center;
+ }
+
+
+ #red {
+  color:red;
+ }
+
+ #green {
+  color:green;
+ }
+
+ #blue {
+  color: blue;
+ }
+ 
+ #link a:link {
+  padding: 5px 5px 20px 5px;
+  color:rgba(255, 255, 255, 0.05);
+ }
+
+ #link a:visited {
+  padding: 5px 5px 20px 5px;
+  
+ }
+
+footer {
+  display:flex;
+  justify-content: right;
+}
+
+.lesson img {
+  display:flex;
+  max-height:250px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#position img {
+  justify-content: center;
+  padding: 5px;
+}
+
+#boxmodel {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+#first p {
+  padding-bottom:0px;
+}
+#second p {
+  padding-top:0px;
+}
+
+.position {
+  display:flex;
+  max-height:250px;
+  align-items: center;
+}
+
+#padding {
+  padding: 0px 30px 0px 100px;
+  background-color:rgb(117, 28, 102);
+}
+
+#margin {
+  margin: 0px 120px 0px 60px;
+}
+
+#border {
+  border: 5px dotted rgb(150, 77, 138);
+  background-color: rgb(255, 115, 0);
+}
+
+#answers {
+  font-size: 24px;
+  background-color: rgb(244, 192, 235);
+  padding: 0px 20px;
+}
+
+#wrong:hover {
+  background-color: red;
+}
+
+#right:hover {
+  background-color: green;
+}
+
+#code {
+  background-color:rgba(162, 102, 162, 0.105);
+  border: 2px solid rgb(177, 130, 177);
+  justify-content: center;
+}
+#dashed {
+  border: 5px dashed rgb(163, 39, 142);
+}
+
+#dotted {
+  border: 5px dotted rgb(163, 39, 142);
+}
+
+#solid {
+  border: 5px solid rgb(163, 39, 142);
+}
+ #link3 {
+  margin-left:120rem;
+ }
+
+ #link3 a:link{
+  font-size: 8px;
+ }
+
+ #size {
+  font-size: 30px;
+  display: inline;
+ }
+
+ #font {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display:inline;
+ }
+
+ #divider {
+  height: auto;
+  justify-content: center;
+ }
+
+ #divider .square {
+  height: 10px;
+  width: 75px;
+  
+ }
+
+ #fonttypes {
+  justify-content:space-around;
+  background-color:rgb(244, 192, 235);
+ }
+#par p {
+  display:inline;
+  margin-bottom: 20px;
+}
+
+#last a:link {
+  font-size:5px;
+}
+
+table, th, td {
+  border: 1px solid rgb(163, 39, 142);
+ border-collapse:collapse;
+ padding:5px;
+ margin-bottom: 20px;
+}
+
+thead {
+  background-color:rgb(244, 192, 235, .75);
+  
+}
+thead th {
+  font-size:30px;
+}
+#home  {
+  display: inline-flex;
+  padding-left:30px;
+  
+}
+
+#home img {
+  max-width: 26em;
+  height:auto;
+
+}
+
+#welcome {
+  margin-top: 100px;
+  min-width:250px;
+  position:fixed;
+  width:60%;
+  display:inline;
+}
+
+#instructions {
+  border: 3px solid rgb(150, 77, 138);
+  padding: 5px;
+  display: inline-block;
+  margin: 5px;
+}
